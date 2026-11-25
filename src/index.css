@@ -11,3 +11,11 @@
 @theme {
   --font-Noto: "Noto Sans", sans-serif; 
 }
+#root{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  /* align-items: center; */
+  flex-direction: column;
+  /* justify-content: center; */
+}

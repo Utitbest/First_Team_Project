@@ -8,7 +8,7 @@ const Header = () => {
             <img className='w-full' src={Logo} alt="Site logo" />
         </div>
         <nav className='flex-1 h-full flex items-center justify-end px-14 gap-3'>
-            <ul className=' h-full w-[70%] flex items-center justify-center gap-5'>
+            <ul className='font-N h-full w-[70%] flex items-center justify-center gap-5'>
                 <NavLink className='text-green-800 font-medium' to='/'>Home</NavLink>
                 <NavLink className='text-green-800 font-medium' to='/about'>About</NavLink>
                 <NavLink className='text-green-800 font-medium' to='/recipes'>Recipes</NavLink>
