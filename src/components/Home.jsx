@@ -1,5 +1,5 @@
 import React from 'react'
-import CatEyeclose from '/CatEyeclose.jpg'
+import WomanCook from '/womanCooking.jpg'
 
 
 const Home = () => {
@@ -16,7 +16,7 @@ const Home = () => {
 
         <div className='w-full flex items-center justify-center '>
           <div className=' items-center justify-center '>
-            <img className='rotate-90 w-100' src={CatEyeclose} alt="Landing page image" />
+            <img className='rotate-90 w-100' src={WomanCook} alt="Landing page image" />
           </div>
         </div>
       </div>
